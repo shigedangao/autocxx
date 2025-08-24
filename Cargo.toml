@@ -31,7 +31,7 @@ arbitrary_self_types = []
 [dependencies]
 autocxx-macro = { path="macro", version="0.30.0" }
 cxx = "1.0.78" # ... also needed because expansion of type_id refers to ::cxx
-aquamarine = "0.1" # docs
+aquamarine = "0.6" # docs
 moveit = { version = "0.6", features = [ "cxx" ] }
 
 [workspace]
